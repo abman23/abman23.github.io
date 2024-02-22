@@ -34,6 +34,23 @@
         {% else %}
           <abbr class="badge">{{ entry.abbr }}</abbr>
         {% endif %}
+        {% if entry.note %}
+            {% if site.data.venues[entry.note] %}
+              {% assign venue_style = null %}
+              {% if site.data.venues[entry.note].color != blank %}
+                {% assign venue_style = site.data.venues[entry.note].color | prepend: 'style="background-color:' | append: '"' %}
+              {% endif %}
+              <abbr
+                class="badge"
+                {% if venue_style %}
+                  {{ venue_style }}
+                {% endif %}
+                ><a href="{{site.data.venues[entry.note].url}}">{{ entry.note }}</a></abbr
+              >
+            {% else %}
+              <abbr class="badge">{{ entry.note }}</abbr>
+            {% endif %}
+        {% endif %}
       {% endif %}
     </div>
   {% endif %}

@@ -1,6 +1,20 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"TWC":
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TVT":
+  color: "#00369f"
+
+"Best Paper":
+  color: "#0050ec"
+
+"Invited Paper":
+  color: "#0050ec"
+
+"DEMO":
+  color: "#0050ec"
+
+"1st-Rank":
+  color: "#0050ec"
+
+"Travel Grant":
+  color: "#0050ec"
