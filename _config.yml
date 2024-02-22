@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Juhyung Lee # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Juhyung
-middle_name: 
-last_name: Lee (이주형)
+middle_name:
+last_name: Lee
 email: juhyung.lee@usc.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -283,8 +283,10 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  # last_name: [Einstein]
+  # first_name: [Albert, A.]
+  last_name: [Lee]
+  first_name: [Juhyung, Ju-Hyung]
 
   style: apa
   locale: en
