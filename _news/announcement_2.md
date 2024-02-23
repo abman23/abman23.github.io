@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our two papers, "Robust Pathloss Map Prediction via Supervised Learning" and "Simple and Effective Augmentation Methods for CSI-Based Indoor Localization," were presented at IEEE GLOBECOM 2023.
+Our two papers, "Robust Pathloss Map Prediction via Supervised Learning" and "Simple and Effective Augmentation Methods for CSI-Based Indoor Localization," were presented @ <i>IEEE GLOBECOM2023</i>.

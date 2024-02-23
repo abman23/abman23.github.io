@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our designed PMNet framework secured <b>"1st (Top)-Rank"</b> in the ML competition @ ICASSP2023 (Radio Map Prediction Challenge), thanks to its superior accuracy.
+Our designed PMNet framework secured <b>"1st (Top)-Rank"</b> in the ML competition @ <i>IEEE ICASSP2023</i> (Radio Map Prediction Challenge), thanks to its superior accuracy.
