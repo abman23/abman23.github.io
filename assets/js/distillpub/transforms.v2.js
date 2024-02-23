@@ -13656,7 +13656,7 @@
 
     appendHead(`
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <link rel="icon" type="image/png" href="data:image/png;base64,${favicon}">
+    <link rel="icon" type="image/x-icon" href="../img/site.ico">
     <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Articles from Distill">
   `);
 
