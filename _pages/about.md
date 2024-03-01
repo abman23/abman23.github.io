@@ -27,6 +27,5 @@ Previously, I was a Research Professor at Korea University, Seoul, Korea, where 
 
 My research interests include: 
 - Wireless communication
-- AI for PHY/MAC layers, network optimization, and signal processing
-- ML-based site-specific wireless channel modeling
+- AI for PHY/MAC layers and network optimization
 - Protocol design for LEO satellite networks
