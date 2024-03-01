@@ -25,6 +25,8 @@ I am a Postdoctoral Researcher at the University of Southern California, Los Ang
 
 Previously, I was a Research Professor at Korea University, Seoul, Korea, where I received my PhD, advised by [Prof. Young-Chai Ko](https://scholar.google.com/citations?user=wKqPXIEAAAAJ&hl=ko). 
 
+I've been recognized with prestigious awards, including 1st-Rank in ML competition, Best Paper awards at key IEEE conferences, and the Grand Prize for research excellence from Korea University.
+
 My research interests include: 
 - Wireless communication
 - AI for PHY/MAC layers and network optimization
