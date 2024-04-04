@@ -29,5 +29,5 @@ I've been recognized with prestigious awards, including 1st-Rank in ML competiti
 
 My research interests include: 
 - Wireless communication
-- AI for PHY/MAC layers and network optimization
 - Protocol design for LEO satellite networks
+- AI for PHY/MAC, site-specific channel model, and RAN optimization
