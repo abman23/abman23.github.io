@@ -28,7 +28,7 @@ Previously, I was a Research Professor at Korea University, Seoul, Korea, where 
 I've been recognized with prestigious awards, including 1st-Rank in ML competition, Best Paper awards at key IEEE conferences, and the Grand Prize for research excellence from Korea University.
 
 My research interests include: 
-- Gen AI Solution for Wireless Comm Systems 
+- Gen AI Solutions for Wireless Comm Systems 
 - On-Device AI/LLM
 
 <!-- - Wireless communication
