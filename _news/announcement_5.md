@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I've been appointed to the TPC for the IEEE Globecom2024 SAC MLC (Selected Areas in Communications: Machine Learning for Communications) track.
+I've been appointed to the TPC for the <i>IEEE Globecom2024</i> MLC (Machine Learning for Communications) track.
