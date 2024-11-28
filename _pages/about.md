@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.google.com/maps/place/Nokia/@37.3968278,-122.0325768,17z/data=!4m6!3m5!1s0x808e2e0c98722599:0x3503debcdd4e5e78!8m2!3d37.396979!4d-122.0301268!16s%2Fg%2F11clh0cxvj?hl=en&entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D'>Santa Clara, California, USA</a>
+subtitle: <a href='https://www.google.com/maps/place/Nokia/@37.3968278,-122.0325768,17z/data=!4m6!3m5!1s0x808e2e0c98722599:0x3503debcdd4e5e78!8m2!3d37.396979!4d-122.0301268!16s%2Fg%2F11clh0cxvj?hl=en&entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D'>Sunnyvale, California, USA</a>
 # subtitle: <a href='#'>Postdoctoral Researcher</a>. Address. Contacts. Moto. Etc.
 
 profile:
