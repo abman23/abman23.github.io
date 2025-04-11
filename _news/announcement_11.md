@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Our recent project, <strong><em>AutoBS: Autonomous Base Station Deployment Framework with Reinforcement Learning and Digital Twin Network</em></strong>, has been published on <a href="https://arxiv.org/abs/2502.19647" target="_blank">arXiv</a>.
+Our recent project, <a href="https://arxiv.org/abs/2502.19647" target="_blank">AutoBS: Autonomous Base Station Deployment Framework with Reinforcement Learning and Digital Twin Network</a>, has been published on <i>arXiv</i>.
 
 
 
