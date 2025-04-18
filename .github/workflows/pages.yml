@@ -3,33 +3,32 @@ name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
-    branches: ["master"]   # ← change if your source branch is not master
-  workflow_dispatch:       # lets you trigger it manually from the UI
+    branches: ["master"]           # ← your content branch
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    # Permissions needed by the deploy‑pages action
     permissions:
       contents: read
       pages: write
       id-token: write
 
     steps:
-      # 1.  Check out your repo
       - uses: actions/checkout@v4
 
-      # 2.  Set up GitHub Pages
-      - uses: actions/configure-pages@v5
+      # install Ruby & all gems (github‑pages, jekyll‑scholar, …)
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true      # speeds up later runs
 
-      # 3.  Build the Jekyll site (al‑folio uses Gemfile; no config needed)
-      - uses: actions/jekyll-build-pages@v2
+      # build the static site
+      - run: bundle exec jekyll build -d _site --profile
 
-      # 4.  Upload the generated _site folder
+      # upload and deploy
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
-
-      # 5.  Deploy to GitHub Pages
       - uses: actions/deploy-pages@v4
