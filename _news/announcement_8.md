@@ -6,6 +6,3 @@ related_posts: false
 ---
 
 Our paper titled <a href="https://arxiv.org/abs/2312.03950">"A Scalable and Generalizable Pathloss Map Prediction"</a> has been accepted and published in the <i>IEEE TWC</i>.
-
-
-

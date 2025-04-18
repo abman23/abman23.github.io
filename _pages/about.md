@@ -18,29 +18,29 @@ social: true # includes social icons at the bottom of the page
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-
 ---
+
 I am a Principal Researcher, AI/ML, at Nokia, Sunnyvale, USA, where I focus on applying AI & GenAI solutions for WiFi.
 
-Previously, I was a Postdoctoral Researcher at the University of Southern California, Los Angeles, USA, advised by [Prof. Andreas F. Molisch](https://scholar.google.com/citations?user=W0wwrucAAAAJ&hl=ko), and a Research Professor at Korea University, Seoul, Korea, where I received my PhD, advised by [Prof. Young-Chai Ko](https://scholar.google.com/citations?user=wKqPXIEAAAAJ&hl=ko). 
+Previously, I was a Postdoctoral Researcher at the University of Southern California, Los Angeles, USA, advised by [Prof. Andreas F. Molisch](https://scholar.google.com/citations?user=W0wwrucAAAAJ&hl=ko), and a Research Professor at Korea University, Seoul, Korea, where I received my PhD, advised by [Prof. Young-Chai Ko](https://scholar.google.com/citations?user=wKqPXIEAAAAJ&hl=ko).
 
 I've been recognized with prestigious awards, including 1st-Rank in ML competition, Best Paper awards at key IEEE conferences, and the Grand Prize for research excellence from Korea University.
 
-My research interests include: 
-- GenAI Solutions for Wireless Communication Systems 
+My research interests include:
+
+- GenAI Solutions for Wireless Communication Systems
 - On-Device AI/LLM
 
-
-<!-- 
+<!--
 Revised at September 20th, 2024
 
-I am Postdoctoral Researcher at the University of Southern California, Los Angeles, USA, advised by [Prof. Andreas F. Molisch](https://scholar.google.com/citations?user=W0wwrucAAAAJ&hl=ko). 
+I am Postdoctoral Researcher at the University of Southern California, Los Angeles, USA, advised by [Prof. Andreas F. Molisch](https://scholar.google.com/citations?user=W0wwrucAAAAJ&hl=ko).
 
-Previously, I was a Research Professor at Korea University, Seoul, Korea, where I received my PhD, advised by [Prof. Young-Chai Ko](https://scholar.google.com/citations?user=wKqPXIEAAAAJ&hl=ko). 
+Previously, I was a Research Professor at Korea University, Seoul, Korea, where I received my PhD, advised by [Prof. Young-Chai Ko](https://scholar.google.com/citations?user=wKqPXIEAAAAJ&hl=ko).
 
 I've been recognized with prestigious awards, including 1st-Rank in ML competition, Best Paper awards at key IEEE conferences, and the Grand Prize for research excellence from Korea University.
 
-My research interests include: 
-- Gen AI Solutions for Wireless Comm Systems 
-- On-Device AI/LLM 
+My research interests include:
+- Gen AI Solutions for Wireless Comm Systems
+- On-Device AI/LLM
 -->

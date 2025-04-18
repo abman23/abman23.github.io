@@ -2,7 +2,6 @@
 layout: default
 ---
 <div class="post">
-  
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -39,17 +38,18 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+    <div class="clearfix">
+      {{ content }}
+      <!-- Social -->
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      {% endif %}
     </div>
-    
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>

@@ -6,6 +6,3 @@ related_posts: false
 ---
 
 Our paper titled <a href="https://ieeexplore.ieee.org/document/10371217">"Handover Protocol Learning for LEO Satellite Networks"</a> has been accepted and published in the <i>IEEE TWC</i>.
-
-
-

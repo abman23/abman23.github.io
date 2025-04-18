@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'github-pages'
+gem 'rdiscount'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'

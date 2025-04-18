@@ -6,9 +6,3 @@ related_posts: false
 ---
 
 I've served on the Technical Committee for the <i>IEEE ICASSP2024</i> RMA (Radio Maps and Their Applications Workshop).
-
-
-
-
-
-
