@@ -1,66 +1,32 @@
-# .github/workflows/pages.yml
-name: Build and deploy Jekyll site to GitHub Pages
-
+name: Build & Deploy Jekyll site to GitHub Pages
 on:
   push:
-<<<<<<< HEAD
-    branches: ["master"]           # ← your content branch
-=======
-    branches: ["master"] # put your source branch here
->>>>>>> e2fde40 (style: prettier --write)
+    branches: ['master']
   workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
-<<<<<<< HEAD
-=======
-    # Permissions required by GitHub Pages
->>>>>>> e2fde40 (style: prettier --write)
     permissions:
       contents: read
       pages: write
       id-token: write
-
     steps:
-<<<<<<< HEAD
       - uses: actions/checkout@v4
 
-      # install Ruby & all gems (github‑pages, jekyll‑scholar, …)
+      # 0) system deps — add ImageMagick
+      - run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      # 1) Ruby + gems (now pulls jekyll‑scholar 7.x)
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true      # speeds up later runs
+          bundler-cache: true
 
-      # build the static site
-      - run: bundle exec jekyll build -d _site --profile
+      # 2) Build
+      - run: bundle exec jekyll build -d _site
 
-      # upload and deploy
+      # 3) Upload & deploy
       - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-=======
-      # 0) Checkout
-      - uses: actions/checkout@v4
-
-      # 1) Configure Pages (sets env vars & auth)
-      - uses: actions/configure-pages@v5
-
-      # 2) **Install Ruby and all gems listed in Gemfile/Gemfile.lock**
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.2"
-          bundler-cache: true # speeds up subsequent runs
-
-      # 3) Build the Jekyll site (installs github‑pages gem automatically)
-      - uses: actions/jekyll-build-pages@v2
-
-      # 4) Upload the generated _site folder
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-
-      # 5) Deploy to GitHub Pages
->>>>>>> e2fde40 (style: prettier --write)
+        with: {path: ./_site}
       - uses: actions/deploy-pages@v4
