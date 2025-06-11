@@ -3,6 +3,9 @@ ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
 
+# Install Node.js for ExecJS runtime support
+RUN apt-get update && apt-get install -y nodejs
+
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
     imagemagick \
