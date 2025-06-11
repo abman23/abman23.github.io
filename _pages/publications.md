@@ -8,7 +8,7 @@ nav_order: 2
 
 <!-- Page Content -->
 
-Here are some selected publications. You can see the full list <b><u><a href="https://scholar.google.com/citations?user=CjWtXBAAAAAJ">here</a></u></b> (<u>40+ incl. 8+ 1st-Author @TWC</u>).
+Below are selected publications. For the full list, visit my <b><u><a href="https://scholar.google.com/citations?user=CjWtXBAAAAAJ">Google Scholar</a></u></b>
 
 <!-- _pages/publications.md -->
 <div class="publications">
