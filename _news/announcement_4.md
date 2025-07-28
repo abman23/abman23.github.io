@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I've had the opportunity to collaborate on-site with the SMI team at Samsung Research America (SRA) in Dallas, Texas, on Low-Complexity Generative Model-based Channel Prediction for mMIMO Systems.
+Collaborated on-site with the SMI team at Samsung Research America (Dallas, TX) on low-complexity generative model-based channel prediction for mMIMO systems.
