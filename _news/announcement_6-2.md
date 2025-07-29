@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Nokia, Sunnyvale (USA) as Principal Researcher in AI/ML.
+Joined Nokia in Sunnyvale, CA, USA as a Principal Researcher specializing in AI/ML.
