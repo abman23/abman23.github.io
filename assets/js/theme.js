@@ -33,33 +33,34 @@ let setTheme = (theme) => {
     setVegaLiteTheme(theme);
   }
 
-  if (theme) {
-    document.documentElement.setAttribute("data-theme", theme);
+  // Normalize theme to "light" or "dark"
+  if (theme !== "dark") {
+    theme = "light";
+  }
 
-    // Add class to tables.
-    let tables = document.getElementsByTagName("table");
-    for (let i = 0; i < tables.length; i++) {
-      if (theme == "dark") {
-        tables[i].classList.add("table-dark");
-      } else {
-        tables[i].classList.remove("table-dark");
-      }
-    }
+  document.documentElement.setAttribute("data-theme", theme);
 
-    // Set jupyter notebooks themes.
-    let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
-    for (let i = 0; i < jupyterNotebooks.length; i++) {
-      let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
-      if (theme == "dark") {
-        bodyElement.setAttribute("data-jp-theme-light", "false");
-        bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
-      } else {
-        bodyElement.setAttribute("data-jp-theme-light", "true");
-        bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Light");
-      }
+  // Add class to tables.
+  let tables = document.getElementsByTagName("table");
+  for (let i = 0; i < tables.length; i++) {
+    if (theme == "dark") {
+      tables[i].classList.add("table-dark");
+    } else {
+      tables[i].classList.remove("table-dark");
     }
-  } else {
-    document.documentElement.removeAttribute("data-theme");
+  }
+
+  // Set jupyter notebooks themes.
+  let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
+  for (let i = 0; i < jupyterNotebooks.length; i++) {
+    let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
+    if (theme == "dark") {
+      bodyElement.setAttribute("data-jp-theme-light", "false");
+      bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
+    } else {
+      bodyElement.setAttribute("data-jp-theme-light", "true");
+      bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Light");
+    }
   }
 
   localStorage.setItem("theme", theme);
@@ -185,10 +186,7 @@ let transTheme = () => {
 
 let initTheme = (theme) => {
   if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
+    theme = "light";
   }
 
   setTheme(theme);
