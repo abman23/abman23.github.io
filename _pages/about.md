@@ -20,6 +20,20 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
+I am a Principal Researcher in AI/ML at Nokia (Sunnyvale, CA), specializing in the architecture and deployment of advanced ML models. Currently, I design On-Device AI solutions for Wireless Communication Systems.
+
+Prior to Nokia, I served as a Postdoctoral Scholar at the University of Southern California (USC) under [Prof. Andreas F. Molisch](https://scholar.google.com/citations?user=W0wwrucAAAAJ&hl=ko), and as a Research Professor at Korea University, where I earned my PhD advised by [Prof. Young-Chai Ko](https://scholar.google.com/citations?user=wKqPXIEAAAAJ&hl=ko). 
+
+My academic and industry research has been recognized with multiple Best Paper awards at premier IEEE conferences, a Grand Prize for research excellence, and a 1st-Rank finish in competitive ML challenges.
+
+My research interests include:
+- On-Device AI
+- Multimodal Generative AI & Agent Modeling
+
+
+<!--
+Revised at Feb 26th, 2026
+
 I am a Principal Researcher, AI/ML, at Nokia, Sunnyvale, USA, where I focus on applying AI & GenAI solutions for WiFi.
 
 Previously, I was a Postdoctoral Researcher at the University of Southern California, Los Angeles, USA, advised by [Prof. Andreas F. Molisch](https://scholar.google.com/citations?user=W0wwrucAAAAJ&hl=ko), and a Research Professor at Korea University, Seoul, Korea, where I received my PhD, advised by [Prof. Young-Chai Ko](https://scholar.google.com/citations?user=wKqPXIEAAAAJ&hl=ko).
@@ -30,6 +44,7 @@ My research interests include:
 
 - GenAI Solutions for Wireless Communication Systems
 - On-Device AI/LLM
+-->
 
 <!--
 Revised at September 20th, 2024
