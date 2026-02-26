@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited to serve on the Technical Committee for the <i>IEEE ICASSP2024</i> RMA (Radio Maps and Their Applications Workshop).
+Invited to serve on the Technical Committee for the <i>IEEE ICASSP'24</i> RMA (Radio Maps and Their Applications Workshop).

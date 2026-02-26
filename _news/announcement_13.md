@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our paper, <a href="https://arxiv.org/abs/2502.19647" target="_blank">AutoBS: Autonomous Base Station Deployment with Reinforcement Learning and Digital Network Twins</a>, has been presented at the <i><b>ICML2025</b></i>.
+Our paper, <a href="https://arxiv.org/abs/2502.19647" target="_blank">AutoBS: Autonomous Base Station Deployment with Reinforcement Learning and Digital Network Twins</a>, has been presented at the <i><b>ICML'25</b></i>.
 

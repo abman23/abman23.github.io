@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited to join the <a href="https://sites.google.com/uniroma1.it/ml4wireless/home" target="_blank"><i>ML4Wireless panel discussion</i></a> at the <i>ICML 2025</i> as an industry speaker.
+Invited to join the <a href="https://sites.google.com/uniroma1.it/ml4wireless/home" target="_blank"><i>ML4Wireless panel discussion</i></a> at the <i>ICML'25</i> as an industry speaker.
